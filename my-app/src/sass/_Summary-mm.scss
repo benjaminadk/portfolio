@@ -1,0 +1,38 @@
+.Modal-Mm {
+    width: 90vw;
+    height: 90vh;
+    text-align: justify;
+   .modal-header {
+       background: $black;
+       color: #FFFFFF;
+       span{
+           color: $white;
+           opacity: 1;
+       }
+   }
+   h5 {
+       @extend .modal-header;
+       padding: 7px;
+   }
+   h3 {
+       @extend .modal-header;
+       padding: 5px;
+   }
+   #mom-cartoon {
+       margin-top: 5vh;
+   }
+   .table {
+       width: 85%;
+       margin-left: 7.5%;
+   }
+   td {
+       font-size: .95rem;
+   }
+   .javascript-logo {
+       padding: 10px;
+       margin: 10px 25% 0;
+   }
+   .modal-footer {
+       background: $black;
+   }
+}

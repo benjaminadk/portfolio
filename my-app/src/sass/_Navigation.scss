@@ -1,0 +1,25 @@
+//THIS PARTIAL - INCLUDES SCSS FOR tooltips.js
+
+#navRight {
+    margin-right: 20px;
+}
+
+//DEVICONS IN NAVBAR
+.devicons-github_badge,.devicons-jekyll_small,.devicons-codepen {
+    font-size: 3rem;
+}
+
+//TOOLTIPS
+#githubTooltip {
+    opacity: 1;
+    img {
+        transform: translate(-21px,0);
+    }
+}
+
+#jekyllTooltip {
+     opacity: 1;
+     img {
+         transform: translate(-5px,0);
+     }
+}

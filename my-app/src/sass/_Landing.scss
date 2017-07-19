@@ -1,0 +1,129 @@
+//LANDING PAGE NAV COMPONENT
+#left-tabs {
+    margin: 50px 0 0 12vw;
+}
+.nav-pills {
+    width: 85%;
+    li a {
+     color: darken($unselected,25%);
+     background: $unselected;
+     font: 1.5rem $primaryFont;
+        &:hover {
+            background: darken($unselected,20%);
+            color: $unselected;
+            }
+        }
+    }
+
+//KEEPS SELECTED TAB ONE COLOR UNTIL UNSELECTED
+.nav-pills>li.active>a,.nav-pills>li.active>a:focus,.nav-pills>li.active>a:hover {
+    background: $green;
+    color: $white;
+}
+//WELCOME TAB
+#welcome {
+    h2 {
+        color: red;
+    }
+}
+//ABOUT TAB
+#about .circle-image {
+    float: left;
+    shape-outside: circle();
+    -webkit-shape-outside: circle();
+    border: 4px solid $black;
+}
+#about .circle-image2 {
+    float: right;
+    shape-outside: circle();
+    -webkit-shape-outside: circle();
+    border: 4px solid $black;
+}
+
+#about #p1 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+#about #p2 {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    text-align: justify;
+}
+
+//DEVELOPER ICONS ON BIO TAB
+#left-tabs-pane-3 .devicons {
+    font-size: 2rem;
+}
+
+//MISSION TAB
+#mission .list-group-item-heading {
+    background: $green;
+    color: $white;
+    padding: 10px;
+}
+#mission .list-group-item {
+    
+}
+
+//FUN TAB
+#funWrapper {
+    .score {
+        border: 3px solid $black;
+        border-radius: 5px;
+        background: $green;
+        color: $white;
+        padding: 0 5px;
+        margin: 0 10px 0 10px;
+    }
+    button {
+        margin: 0 auto;
+        background: $black;
+        color: $white;
+        &:hover {
+            background: $green;
+        }
+    }
+    .label {
+        background: $green;
+        color: $white;
+        border: 1px solid $black;
+        border-radius: 5px;
+        font-size: 1rem;
+    }
+}
+
+//FORM TAB 
+#form-slide {
+    .list-group {
+        width: 75%;
+        margin: 0 auto 5vh;
+        .list-group-item {
+            background: $green;
+            color: $white;
+        }
+    }
+}
+ 
+form {
+        width: 88%;
+         input, textarea {
+            
+         }
+         button {
+             background: $black!important;
+             color: $white!important;
+             &:hover {
+                 background: $green!important;
+                 color: $white!important;
+             }
+         }
+ }
+ 
+ //PROJECTS
+ #projects {
+     .list-group-item:hover,.list-group-item-heading:hover {
+         background: $green;
+         color: $white;
+     }
+ }

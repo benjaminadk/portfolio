@@ -1,0 +1,39 @@
+.Modal-Hppt {
+    width: 90vw;
+    height: 90vh;
+    text-align: justify;
+   .modal-header {
+       background: $black;
+       color: #FFFFFF;
+       span{
+           color: $white;
+           opacity: 1;
+       }
+   }
+   h5 {
+       @extend .modal-header;
+       padding: 7px;
+   }
+   h3 {
+       @extend .modal-header;
+       padding: 5px;
+   }
+   .hppt-logo {
+       margin-top: 30px;
+   }
+   .table {
+       width: 85%;
+       margin-left: 7.5%;
+   }
+   td {
+       font-size: .95rem;
+   }
+   .modal-footer {
+       background: $black;
+   }
+}
+
+.iconSet {
+    border: 1px solid;
+    margin: 0px auto;
+}
