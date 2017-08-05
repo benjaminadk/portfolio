@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, ListGroup, ListGroupItem } from 'react-bootstrap';
 
-export const projects = 
+export const projects = () => (
   <div id="projects">
     <Col md={6} xs={12}>
      <h4>FREELANCE</h4>
@@ -15,8 +15,8 @@ export const projects =
      <ListGroupItem header="Northeastern Recovery Advocates" href="https://benjaminadk.github.io/recovery-advocate/" target="_blank">
      Small business profile site
      </ListGroupItem>
-     <ListGroupItem header="CSS Sandbox" href="https://benjaminadk.github.io/css-sandbox/index.html" target="_blank">
-     CSS Learning Tool(alpha version - update soon)
+     <ListGroupItem header="CSS Sandbox" href="http://www.css-sandbox.net/" target="_blank">
+     CSS Learning Tool
      </ListGroupItem>
      </ListGroup>
      </Col>
@@ -64,4 +64,4 @@ export const projects =
       </ListGroupItem>
      </ListGroup>
      </Col>
-                        </div>;
+                        </div>);

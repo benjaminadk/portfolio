@@ -1,0 +1,39 @@
+.Modal-Css {
+    width: 90vw;
+    height: 90vh;
+    text-align: justify;
+   .modal-header {
+       background: $black;
+       color: #FFFFFF;
+       span{
+           color: $white;
+           opacity: 1;
+       }
+   }
+   h5 {
+       @extend .modal-header;
+       padding: 7px;
+   }
+   h3 {
+       @extend .modal-header;
+       padding: 5px;
+   }
+   .table {
+       width: 85%;
+       margin-left: 7.5%;
+   }
+   td {
+       font-size: .95rem;
+   }
+   .css-logo {
+       margin: 20px auto;
+   }
+   .cssThumb {
+       border: 1px solid;
+       border-radius: 5px;
+       margin: 10px auto;
+   }
+   .modal-footer {
+       background: $black;
+   }
+}

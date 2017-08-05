@@ -229,8 +229,8 @@ class Fun extends Component {
       <Collapse in={this.state.playAgain}>
       <Button onClick={this.cardsInit}>PLAY AGAIN</Button>
       </Collapse>
-      <h3>DEALER: {this.state.statusc}</h3>
-      <h3>STATUS: {this.state.statusp}</h3>
+      <h3><Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1216298/shark.svg" height={70}/>DEALER: {this.state.statusc}</h3>
+      <h3><Image src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1216298/fox.svg" height={70}/>STATUS: {this.state.statusp}</h3>
       <Col className="card-game" md={6}>
       <h2>YOUR HAND</h2>
      

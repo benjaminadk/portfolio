@@ -4,8 +4,7 @@ import Aboutme from './Landing.js';
 import SummaryHppt from './Summary-hppt.js';
 import SummaryMm from './Summary-mm.js';
 import SummaryGol from './Summary-gol.js';
-
-
+import SummaryCss from './Summary-css.js';
 
 
 class SlideShow extends Component {
@@ -52,8 +51,19 @@ class SlideShow extends Component {
                     </Carousel.Caption>
                     </Carousel.Item>
                     
-                    <Carousel.Item>
+                     <Carousel.Item>
                         <div id="slide3">
+                        <img width={900} height={500} alt="900x500" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1216298/mockup-css-sandbox.svg"/>
+                        </div>
+                    <Carousel.Caption>
+                        <h2 className="Caption">CSS SANDBOX</h2>
+                       <SummaryCss/>
+                        
+                    </Carousel.Caption>
+                    </Carousel.Item>
+                    
+                    <Carousel.Item>
+                        <div id="slide4">
                         <img width={900} height={500} alt="900x500" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/1216298/mockup-game-of-life.svg"/>
                         </div>
                     <Carousel.Caption>

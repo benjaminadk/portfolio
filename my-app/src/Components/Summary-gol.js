@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { ButtonToolbar, ButtonGroup, Button, Modal, Col, Row, Grid, Image, Table, ResponsiveEmbed } from 'react-bootstrap';
 import logo from './assets/logo.svg';
+ 
 
 class SummaryGol extends Component {
     constructor(){
@@ -23,13 +24,14 @@ class SummaryGol extends Component {
     }
     render(){
         return(
-            
+          
              <ButtonToolbar>
              <ButtonGroup>
         <Button onClick={this.showModal} bsSize="large">PROJECT SUMMARY</Button>
             <Button bsSize="large" href="https://www.youtube.com/watch?v=R9Plq-D1gEk" target="_blank">LIVE SITE</Button>
             <Button bsSize="large">FREE CODE CAMP</Button>
             </ButtonGroup>
+            
             <Modal show={this.state.show}
                    bsSize='large'
                    onHide={this.hideModal}

@@ -9,7 +9,7 @@
   margin-top: 3vh;
 }
 
-#slide0,#slide1,#slide2,#slide3 {
+#slide0,#slide1,#slide2,#slide3,#slide4 {
   background: #FFFFFF;
   height: 100vh;
   padding-top: 5vh;
@@ -21,4 +21,8 @@
   border-radius: 5px;
   color: #FFFFFF;
   font: 4rem $primaryFont;
+}
+
+.btn-toolbar {
+  margin: 0 17%;
 }

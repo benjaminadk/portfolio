@@ -1,7 +1,7 @@
 import React from 'react';
 import { Table } from 'react-bootstrap';
 
-export const bio = 
+export const bio = () =>  
 <Table striped bordered condensed hover responsive>
 <tbody>
 <tr>
@@ -33,12 +33,8 @@ export const bio =
 <td>HTML<span className="devicons devicons-html5"></span>, CSS<span className="devicons devicons-css3"></span>, Javascript<span className="devicons devicons-javascript"></span>, NodeJS<span className="devicons devicons-nodejs_small"></span></td>
 </tr>
 <tr>
-<td>Frameworks</td>
-<td></td>
-</tr>
-<tr>
 <td>Libraries</td>
-<td>React<span className="devicons devicons-react"></span>, JQuery<span className="devicons devicons-jquery"></span>, D3</td>
+<td>React <span className="devicons devicons-react"></span> , JQuery<span className="devicons devicons-jquery"></span>, D3, Express</td>
 </tr>
 <tr>
 <td>Front-End Frameworks</td>
